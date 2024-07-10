@@ -4,7 +4,11 @@ SNN training and testing using the spike data from multi-channel NeuroRadar sens
 The SNN construction and optimization is based on the [nengo_dl](https://www.nengo.ai/nengo-dl/) framework. 
 
 # SNN Structure
+![image](https://github.com/kaizheng28/neuro-radar-snn/assets/144567523/5764d51e-0c3e-4e9b-8c80-b507c6a68ea3)
 
+In our work, the spike buffering units are implemented in software. The dataset has already been processed to produce spikes after the buffering unit (unit delay = 4ms).
+In the current implementation, the whole spike sequence (1.5s for gesture recognition, and 2s for localization) needs to be buffered before they enter the next layer. 
+A more detailed description can be found in Sec.5.2 of the NeuroRadar paper. 
 
 # Future works
 Nengo-dl only supports the conversion method for training SNNs. This method involves training a traditional deep neural network (DNN) with the same structure and then converting it into an SNN. 
