@@ -5,6 +5,7 @@ The SNN construction and optimization is based on the [nengo_dl](https://www.nen
 
 # More resources
 [Spike sampler FPGA program and raw dataset](https://github.com/kaizheng28/spike-sampler)
+
 [Hardware design files](https://github.com/kaizheng28/neuro-radar-pcb)
 
 # References
