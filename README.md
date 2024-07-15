@@ -3,6 +3,8 @@ SNN training and testing using the spike data from multi-channel NeuroRadar sens
 
 The SNN construction and optimization is based on the [nengo_dl](https://www.nengo.ai/nengo-dl/) framework. 
 
+Version of related packages: numpy==1.23.0, tensorflow==2.9.0, nengo==3.2.0, nengo-dl==3.5.0
+
 # SNN Structure
 ![image](https://github.com/kaizheng28/neuro-radar-snn/assets/144567523/5764d51e-0c3e-4e9b-8c80-b507c6a68ea3)
 
